@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centerdiv {
+    display: inline-block;
+    border: 5px solid #00d0ff;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    position: absolute;
+    background-color: #333;
+    padding: 20px 20px 15px 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: white;
+    width: 70%;
+    min-width: 50%; /* Adjust the minimum width as needed */
+}
+
+.centerdiv h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #00d0ff 3px solid;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    margin: 0px;
+}
+.button-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    margin: 0px;
+}
+.but1{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+.button {
+    height: 50px;
+    position: relative;
+    background-color: #333;
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 270px;
+    padding: 0; /* Remove padding */
+    line-height: 50px; /* Match the height to center text vertically */
+    margin: 0;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /*Safari*/ transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+
+footer {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border-top: #00d0ff 3px solid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.date {
+    font-size: 1rem;
+    padding: 0 10px; /* Adjust padding to center text */
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 130px;
+    height: 50px; /* Match the height of the button */
+    line-height: 50px; /* Match the height to center text vertically */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.costma {
+    font-size: 25px;
+    padding: 20px;
+}
+.costma1 {
+    font-size: 21px;
+    padding: 20px;
+}
+
+body {
+    background-image: radial-gradient(#474bff 1px, transparent 1px), radial-gradient(#474bff 1px, transparent 1px);
+    background-size: 21px 21px;
+    background-position: 0 0, 10.5px 10.5px;
+    background-color: #ececec;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.select1 {
+    border: 2px solid #00d0ff;
+    background-color: #333;
+    color: #FFFFFF;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 20px;
+}
+
+.button1 {
+    height: 50px;
+    position: relative;
+    background-color: #333;
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 270px;
+    padding: 0; /* Remove padding */
+    line-height: 50px; /* Match the height to center text vertically */
+    margin: 0;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /*Safari*/ transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.tworcy{
+    position: relative;
+    width: 300px;
+    display: block;/* Align items vertically */
+    margin: 0px;
+}
+.tworcy li ol {
+    text-align: center;
+}
+input[type=text]{
+    font-size: 22px;
+    padding: 5px;
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  border: 2px solid #00d0ff;
+  border-radius: 15px;
+  background-color: #333;
+  color: #fff;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
+  }
+  input[type=email] {
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
+  }
+  input[type=tel] {
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px;
+  }
+.but2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.but3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.form_wypozyczenia{
+    border: 3px solid #00d0ff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 10px;
+}
+.button3{
+    position: relative;
+    background-color: #333;
+    border: 2px solid #00d0ff;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #FFFFFF;
+    width: 350px;
+    padding: 0; /* Remove padding */
+    line-height: 50px; /* Match the height to center text vertically */
+    margin: 0;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /*Safari*/ transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
